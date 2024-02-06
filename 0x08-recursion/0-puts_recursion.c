@@ -16,7 +16,7 @@ void _puts_recursion(char *s)
     _puts_recursion(s + 1); // Move to the next character and recurse
 }
 /* File: 0-main.c */
-
+#include "main.h"
 
 /**
  * main - check the code
